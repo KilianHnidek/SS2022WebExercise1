@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Web Technologie</title>
+</head>
+
+
+<body>
+
+    <header>
+        <figure>
+            <!--
+            For screen readers to understand content
+        -->
+            <img src="/resources/Bookstore.jpg" alt="Bookstore Icon">
+            <figcaption></figcaption>
+        </figure>
+        <h1 id="Bookshop">Bookshop</h1>
+    </header>
+
+    <nav>
+        <h2>Categories</h2>
+        <ul>
+            <li><a href="#HTML5">HTML 5</a></li>
+            <li><a href="#JavaScript">JavaScript</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+            <li><a href="https://www.amazon.de/" target="_blank" rel="noopener">Browse Amazon</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h2 id="HTML5"> HTML5 Books</h2>
+        <h3>HTML5: Up & Running</h3>
+        <!--
+        could use <figure> and <figcaption>
+        for screen readers to understand content
+    -->
+        <img src="/resources/HTML5_Up_And_Running.jpg" alt="Book called HTML5 Up and Running">
+
+
+        <p>
+            Quantity:
+            <select name="" id="#quantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button>Add to cart</button>
+        </p>
+
+        <p>Price 24,8 €</p>
+        <p>If you...</p>
+        <p>ISBN: ...</p>
+
+        <h3>HTML5 Pocket Reference</h3>
+        <img src="/resources/HTML5_Pocket_Reference.jpg" alt="Book called HTML5 Pocket Reference">
+
+        <p>
+            Quantity:
+            <select name="" id="#quantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button>Add to cart</button>
+        </p>
+
+        <p>Price 15,9 €</p>
+        <p>Need help...</p>
+        <p>ISBN: ...</p>
+
+        <h2 id="JavaScript">JavaScript Books</h2>
+        <h3>JavaScript: The Definitve Guide</h3>
+        <img src="/resources/JavaScript_The_Definitive_Guide.jfif" alt="Book called JavaScript: The Definitive Guide">
+
+        <p>Price 47,3€</p>
+        <p>This Fifth...</p>
+        <p>ISBN: ...</p>
+
+        <h3>JavaScript: the Good Parts</h3>
+        <img src="/resources/JavaScript_The_Good_Parts.jfif" alt="Book called JavaScript: the Good Parts">
+
+        <p>
+            Quantity:
+            <select name="" id="#quantity">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+            </select>
+            <button>Add to cart</button>
+        </p>
+
+        <p>Price 23,9€</p>
+        <p>Most programming...</p>
+        <p>ISBN: ...</p>
+
+    </main>
+
+    <aside>
+        <h2>Shopping Cart</h2>
+        <p>Sum: 0€</p>
+        <p><a href="#Bookshop"> Go to top</a></p>
+    </aside>
+
+    <footer>
+        © Bookshop <br>
+        Written by <a href="mailto:janedoe@example.com?subject=Email Subject&body=Contents of email">Max Mustermann</a><br>
+        Visit us at: <a href="https://www.fh-campuswien.ac.at/" target="_blank" rel="noopener">FH Campus Vienna</a> <br>
+        1100 Vienna, Austria
+        <!-- rel="noopener" against phishing attacks -->
+    </footer>
+</body>
+</html>

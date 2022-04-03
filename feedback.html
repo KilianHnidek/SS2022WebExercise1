@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+
+    <title>Web Technologie</title>
+</head>
+
+
+<body>
+    <form action="main.html">
+        <h1>Website Feedback Form</h1>
+        <!--
+        <p>Is this the first time you have visited the website?</p>
+    -->
+        <fieldset>
+            <!-- fieldset & legend remove if necessary -->
+            <legend>Is this the first time you have visited the website?</legend>
+            <div>
+                <label><input type="radio" name="firstTime">yes</input></label>
+                <label><input type="radio" name="firstTime">no</input></label>
+            </div>
+        </fieldset>
+
+        <div>
+            <p>What is the PRIMARY reason you came to the website?</p>
+            <div>
+                <textarea name="" id="" cols="30" rows="5"></textarea>
+            </div>
+        </div>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <!-- fieldstet & legend remove if necessary -->
+            <legend>Did you find what you needed?</legend>
+            <div>
+                <!--
+            <p>Did you find what you needed?</p>
+            -->
+                <label><input type="radio" name="needed">Yes, all of it</input></label>
+                <label><input type="radio" name="needed">Yes, some of it</input></label>
+                <label><input type="radio" name="needed">No, none of it</input></label>
+            </div>
+        </fieldset>
+
+        <br>
+
+        <div>
+            <p>You did not find any or all of what you needed, please tell us what information you were looking for.</p>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </div>
+
+        <br>
+        <br>
+
+        <fieldset>
+            <legend>Please tell us how easy it is to finde inf64ormation on the site.</legend>
+            <div>
+                <!--
+                <p>Please tell us how easy it is to finde information on the site.</p>
+            -->
+                <label><input type="radio" name="easyToFind">Very easy</input></label>
+                <label><input type="radio" name="easyToFind">Easy</input></label>
+                <label><input type="radio" name="easyToFind">Average</input></label>
+                <label><input type="radio" name="easyToFind">Difficult</input></label>
+                <label><input type="radio" name="easyToFind">Very Difficult</input></label>
+            </div>
+        </fieldset>
+
+        <div class="">
+            <p>What is the overall impression of the site?</p>
+            <table>
+                <tr>
+                    <th></th>
+                    <th>Below Expectations</th>
+                    <th>Meets Expectations</th>
+                    <th>Exceeds Expectations</th>
+                </tr>
+                <tr>
+                    <td>Professional</td>
+                    <td><label><input type="radio" name="Professional"></input></label></td>
+                    <td><label><input type="radio" name="Professional"></input></label></td>
+                    <td><label><input type="radio" name="Professional"></input></label></td>
+                </tr>
+                <tr>
+                    <td>Informative</td>
+                    <td><label><input type="radio" name="Informative"></input></label></td>
+                    <td><label><input type="radio" name="Informative"></input></label></td>
+                    <td><label><input type="radio" name="Informative"></input></label></td>
+                </tr>
+                <tr>
+                    <td>Visually Pleasing</td>
+                    <td><label><input type="radio" name="VisuallyPleasing"></label></input></td>
+                    <td><label><input type="radio" name="VisuallyPleasing"></label></input></td>
+                    <td><label><input type="radio" name="VisuallyPleasing"></label></input></td>
+                </tr>
+            </table>
+        </div>
+
+        <div>
+            <p>Please add any comments you have for improving the website. We welcome suggestions on specific areas for
+                improvements, features you would like to see added to the site, and examples of what you consider goog
+                websites.</p>
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+        </div>
+
+        <div>
+            <p>We would like to know a little about you</p>
+
+            eMail: <input type="email" name="" id="" placeholder="user@example.com" required>
+            Your Homepage: <input type="url" name="" id="" placeholder="http://www.example.com">
+            Date of birth: <input type="datetime" name="" id="" placeholder="tt.mm.jjjj">
+
+            <button type="submit" value="SUBMIT">Send</button>
+        </div>
+    </form>
+</body>
+</html>
